@@ -1,4 +1,4 @@
-package p03lecture.p1unary;
+package p03.lecture.p1unary;
 
 public class A02incDec {
 
