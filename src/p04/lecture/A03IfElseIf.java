@@ -20,7 +20,7 @@ public class A03IfElseIf {
 		}else if (a > -100) {
 			System.out.println("state");
 		}else {
-			System.out.println(state2);
+			System.out.println("state2");
 		}
 		
 		
@@ -31,4 +31,4 @@ public class A03IfElseIf {
 	}
 	
 
-}
+
