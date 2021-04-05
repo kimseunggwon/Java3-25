@@ -8,7 +8,7 @@ public class A04ReferenceType {
 		int j= i;
 		
 		String s = new String("java");
-		String t = new s;
+		//String t = new;
 
 	}
 
