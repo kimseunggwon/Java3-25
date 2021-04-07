@@ -1,8 +1,6 @@
 package p04.lecture;
-
-public class A18WhileSystemin {
-
-	public static void main(String[] args) throw Exception {
+public class A18WhileSystemin{
+	public static void main(String[] args) throws Exception {
 		//너무 어려우면 복습 X
 		//System.in : 키보드
 		
