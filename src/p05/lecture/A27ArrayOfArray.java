@@ -1,7 +1,6 @@
 package p05.lecture;
 
 import java.util.Arrays;
-
 public class A27ArrayOfArray {
 	//그림 : 11.배열의 배열
 	public static void main(String[] args) {
