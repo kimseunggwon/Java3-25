@@ -15,6 +15,6 @@ public class A04Equals {
 	String s2 = new String("java");
 	
 	System.out.println(s1 ==s2); //서로 다른 객체
-    System.out.println(s1.equals(s2))); // 문자열이 같으면 true
+    System.out.println(s1.equals(s2)); // 문자열이 같으면 true
   }
 }
