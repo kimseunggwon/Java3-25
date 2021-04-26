@@ -1,17 +1,17 @@
 package 생활코딩.part1.MyApp;
 
 public class AccountingApp {
+	public static double ValueOfSupply ;
 	public static void main(String[] args) {
 		
 		//각각의 변수들이 어떤 데이터를 갖는지
 		//변수로 통해 우리는 이름을 붙여줬다.
 
-		double ValueOfSupply =Double.parseDouble(args[0]);
 		double vatRate = 0.1;
 		double expenseRate = 0.3;
-		double vat = ValueOfSupply * vatRate;
+		double vat = getVAT();//여기서 get은 클래스가 사용되도록 하는것
 		double total = ValueOfSupply + vat;
-		double expense = ValueOfSupply * expenseRate;
+		double expense = getVAT(ValueOfSupply, expenseRate);
 		double income = ValueOfSupply - expense;
 		
 		
@@ -32,7 +32,12 @@ public class AccountingApp {
 		System.out.println("Dividend 1: " + dividend1);
 		System.out.println("Dividend 2: " + dividend2);
 		System.out.println("Dividend 3: " + dividend3);
-		
-
 	}
+
+	public static double getVAT() {
+		return ValueOfSupply * vatRate;
+	}
+	
+	
+	
 }
