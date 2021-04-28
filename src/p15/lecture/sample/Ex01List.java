@@ -33,6 +33,7 @@ public class Ex01List {
 		}
 		return index;
 	}
+    
     //최소값 min값
 	private static int max(List<Integer> list) {
 		int max =Integer.MIN_VALUE;
