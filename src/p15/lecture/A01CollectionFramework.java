@@ -14,5 +14,5 @@ public class A01CollectionFramework {
 	//대표인터페이스    //자료 저장방법
 	// List            (순서있고 ,중복 저장)
 	// Set             (순서없고 ,중복 불가)
-	// Map             (키,값) 쌍으로 저장
+	// Map             (키,값) 쌍으로 저장 (순서가없다)
 }
